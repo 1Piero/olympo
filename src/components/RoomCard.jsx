@@ -2,14 +2,8 @@ import { Link } from 'react-router-dom'
 import { Users } from 'lucide-react'
 import { useReservation } from '../context/ReservationContext.jsx'
 
-/**
- * RoomCard
- * --------------------------------------------------------------
- * Tarjeta de presentación de una habitación. Al hacer clic en
- * "Reservar" guarda la habitación seleccionada en el contexto de
- * reservas y navega al formulario, con el tipo pre-cargado.
- * --------------------------------------------------------------
- */
+// RoomCard
+
 export default function RoomCard({ room }) {
   const { setSelectedRoom } = useReservation()
 

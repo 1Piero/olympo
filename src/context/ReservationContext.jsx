@@ -1,15 +1,7 @@
 import { createContext, useContext, useState } from 'react'
 import { createReservation, getReservations } from '../services/mockApi'
 
-/**
- * ReservationContext
- * --------------------------------------------------------------
- * Centraliza la lógica de reservas: habitación pre-seleccionada
- * (cuando el usuario hace clic en "Reservar" desde /habitaciones),
- * envío del formulario de reserva y listado de reservas para el
- * panel de administrador.
- * --------------------------------------------------------------
- */
+//ReservationContext
 const ReservationContext = createContext(null)
 
 export function ReservationProvider({ children }) {

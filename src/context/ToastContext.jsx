@@ -1,13 +1,6 @@
 import { createContext, useCallback, useContext, useState } from 'react'
 
-/**
- * ToastContext
- * --------------------------------------------------------------
- * Sistema simple de notificaciones "toast" para dar feedback al
- * usuario (confirmaciones de reserva, errores de formulario, etc.)
- * sin depender de librerías externas.
- * --------------------------------------------------------------
- */
+// ToastContext
 const ToastContext = createContext(null)
 
 export function ToastProvider({ children }) {

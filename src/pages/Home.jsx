@@ -6,9 +6,8 @@ import RoomCard from '../components/RoomCard.jsx'
 
 const ICONS = { Sparkles, UtensilsCrossed, Waves, CarFront }
 
-/**
- * Home
- */
+// Home
+
 export default function Home() {
   return (
     <div>

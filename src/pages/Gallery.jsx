@@ -2,14 +2,7 @@ import SectionTitle from '../components/SectionTitle.jsx'
 import Carousel from '../components/Carousel.jsx'
 import { GALLERY_IMAGES } from '../services/mockApi.js'
 
-/**
- * Gallery (Galería)
- * --------------------------------------------------------------
- * Carrusel principal de imágenes del hotel más una cuadrícula
- * de miniaturas para explorar habitaciones, exteriores y
- * servicios.
- * --------------------------------------------------------------
- */
+// Gallery
 export default function Gallery() {
   return (
     <div className="min-h-screen bg-olympo-black px-6 pb-24 pt-36">

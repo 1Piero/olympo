@@ -13,14 +13,7 @@ import Login from './pages/Login.jsx'
 import Admin from './pages/Admin.jsx'
 import NotFound from './pages/NotFound.jsx'
 
-/**
- * App
- * --------------------------------------------------------------
- * Componente raíz: define el layout general (Navbar + contenido
- * + Footer) y el árbol de rutas de la aplicación mediante
- * React Router.
- * --------------------------------------------------------------
- */
+
 export default function App() {
   return (
     <div className="flex min-h-screen flex-col bg-olympo-black">

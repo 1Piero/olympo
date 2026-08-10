@@ -1,13 +1,8 @@
 import { Link } from 'react-router-dom'
 import { Crown, Camera, MessageCircle, Send, MapPin, Phone, Mail } from 'lucide-react'
 
-/**
- * Footer
- * --------------------------------------------------------------
- * Pie de página elegante con enlaces de navegación, información
- * de contacto resumida y redes sociales.
- * --------------------------------------------------------------
- */
+// footer
+
 export default function Footer() {
   return (
     <footer className="border-t border-olympo-gold/15 bg-olympo-black">

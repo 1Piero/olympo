@@ -1,15 +1,6 @@
-/**
- * mockApi.js
- * --------------------------------------------------------------
- * Simulación de una API backend. En un proyecto real, estas
- * funciones harían fetch() a un servidor (Node.js/Firebase).
- * Aquí usamos datos estáticos + localStorage para persistir
- * reservas y sesión de usuario, con una pequeña latencia
- * artificial para simular una llamada de red real.
- * --------------------------------------------------------------
- */
+// Mock API para el Hotel Olympo
 
-// ---------- Datos de habitaciones ----------
+// Datos de habitaciones
 export const ROOMS = [
   {
     id: 'suite-olimpica',

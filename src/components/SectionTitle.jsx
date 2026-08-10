@@ -1,10 +1,5 @@
-/**
- * SectionTitle
- * --------------------------------------------------------------
- * Encabezado reutilizable para cada sección de la página:
- * pequeño rótulo dorado + título grande + divisor decorativo.
- * --------------------------------------------------------------
- */
+// SectionTitle
+
 export default function SectionTitle({ eyebrow, title, description, center = true }) {
   return (
     <div className={`mb-14 ${center ? 'text-center mx-auto max-w-2xl' : ''}`}>

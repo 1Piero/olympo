@@ -1,14 +1,8 @@
 import { Navigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext.jsx'
 
-/**
- * ProtectedRoute
- * --------------------------------------------------------------
- * Envuelve rutas que requieren sesión iniciada (y opcionalmente
- * un rol específico, como "admin"). Si el usuario no cumple los
- * requisitos, se le redirige a /login o a la página principal.
- * --------------------------------------------------------------
- */
+// ProtectedRoute
+
 export default function ProtectedRoute({ children, requireRole }) {
   const { isAuthenticated, user, loading } = useAuth()
 

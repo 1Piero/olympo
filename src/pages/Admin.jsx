@@ -3,13 +3,8 @@ import { ClipboardList, RefreshCw } from 'lucide-react'
 import SectionTitle from '../components/SectionTitle.jsx'
 import { useReservation } from '../context/ReservationContext.jsx'
 
-/**
- * Admin (Panel de administrador)
- * --------------------------------------------------------------
- * Ruta protegida (solo rol "admin") que lista todas las reservas
- * guardadas en localStorage a través de mockApi.
- * --------------------------------------------------------------
- */
+// Admin
+
 export default function Admin() {
   const { fetchAllReservations } = useReservation()
   const [reservations, setReservations] = useState([])

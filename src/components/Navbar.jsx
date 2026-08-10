@@ -11,14 +11,8 @@ const NAV_LINKS = [
   { to: '/contacto', label: 'Contacto' },
 ]
 
-/**
- * Navbar
- * --------------------------------------------------------------
- * Barra de navegación fija que cambia de apariencia al hacer
- * scroll (de transparente a sólida con blur). Incluye menú
- * responsive para dispositivos móviles y estado de sesión.
- * --------------------------------------------------------------
- */
+//navBar
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)

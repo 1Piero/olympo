@@ -11,13 +11,8 @@ const SORT_OPTIONS = [
   { value: 'price-desc', label: 'Precio: mayor a menor' },
 ]
 
-/**
- * Rooms (Habitaciones)
- * --------------------------------------------------------------
- * Lista todas las habitaciones disponibles con filtro por tipo
- * y ordenamiento por precio.
- * --------------------------------------------------------------
- */
+// Rooms
+
 export default function Rooms() {
   const [type, setType] = useState('Todas')
   const [sort, setSort] = useState('default')

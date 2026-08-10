@@ -1,14 +1,7 @@
 import { createContext, useContext, useEffect, useState } from 'react'
 import { loginRequest, logoutRequest, getStoredUser } from '../services/mockApi'
 
-/**
- * AuthContext
- * --------------------------------------------------------------
- * Maneja el estado de sesión del usuario en toda la aplicación:
- * login, logout y usuario actual. Persiste la sesión en
- * localStorage para simular un flujo de autenticación real.
- * --------------------------------------------------------------
- */
+// Contexto de autenticación
 const AuthContext = createContext(null)
 
 export function AuthProvider({ children }) {

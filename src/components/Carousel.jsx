@@ -1,13 +1,7 @@
 import { useEffect, useState, useCallback } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
-/**
- * Carousel
- * --------------------------------------------------------------
- * Carrusel de imágenes con autoplay, controles manuales y
- * miniaturas de navegación. Usado en la sección de Galería.
- * --------------------------------------------------------------
- */
+// Carousel
 export default function Carousel({ images, autoPlayMs = 5000 }) {
   const [index, setIndex] = useState(0)
 

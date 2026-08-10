@@ -14,14 +14,8 @@ const initialForm = {
   roomType: '',
 }
 
-/**
- * Reservations (Reservas)
- * --------------------------------------------------------------
- * Formulario de reserva con validaciones básicas (campos
- * obligatorios, fechas coherentes, capacidad) y simulación de
- * confirmación a través de mockApi (sin backend real).
- * --------------------------------------------------------------
- */
+// Reservations
+
 export default function Reservations() {
   const { selectedRoom, setSelectedRoom, submitReservation, submitting, lastReservation } =
     useReservation()

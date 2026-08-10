@@ -1,10 +1,7 @@
 @import "tailwindcss";
 
-/* ============================================================
-   OLYMPO — Sistema de diseño premium
-   Paleta: negro profundo, dorado, blanco hueso
-   Tipografía: Marcellus / Cormorant Garamond (display) + Jost (cuerpo)
-   ============================================================ */
+/* OLYMPO — Sistema de diseño premium */
+
 @theme {
   --font-display: "Marcellus", "Cormorant Garamond", serif;
   --font-serif: "Cormorant Garamond", serif;

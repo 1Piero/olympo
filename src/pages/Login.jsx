@@ -4,15 +4,8 @@ import { Crown, Lock, Mail } from 'lucide-react'
 import { useAuth } from '../context/AuthContext.jsx'
 import { useToast } from '../context/ToastContext.jsx'
 
-/**
- * Login
- * --------------------------------------------------------------
- * Simulación de autenticación de usuario (sin backend real).
- * Cualquier correo/contraseña válidos son aceptados; si el
- * correo contiene "admin" se le asigna el rol de administrador,
- * habilitando el acceso al panel /admin.
- * --------------------------------------------------------------
- */
+// Login
+
 export default function Login() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')

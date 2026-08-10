@@ -2,13 +2,8 @@ import SectionTitle from '../components/SectionTitle.jsx'
 import ServiceCard from '../components/ServiceCard.jsx'
 import { SERVICES } from '../services/mockApi.js'
 
-/**
- * Services (Servicios)
- * --------------------------------------------------------------
- * Presenta los servicios exclusivos del hotel: spa, restaurante
- * gourmet, piscina infinita y transporte VIP.
- * --------------------------------------------------------------
- */
+// Services
+
 export default function Services() {
   return (
     <div className="min-h-screen bg-olympo-black px-6 pb-24 pt-36">

@@ -5,13 +5,8 @@ import { useToast } from '../context/ToastContext.jsx'
 
 const initialForm = { name: '', email: '', message: '' }
 
-/**
- * Contact (Contacto)
- * --------------------------------------------------------------
- * Formulario de contacto con validación básica, información del
- * hotel y mapa embebido de Google Maps.
- * --------------------------------------------------------------
- */
+// Contact
+
 export default function Contact() {
   const [form, setForm] = useState(initialForm)
   const [errors, setErrors] = useState({})

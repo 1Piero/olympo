@@ -8,14 +8,8 @@ const ICONS = {
   CarFront,
 }
 
-/**
- * ServiceCard
- * --------------------------------------------------------------
- * Tarjeta visual para cada servicio destacado del hotel
- * (spa, restaurante, piscina, transporte VIP), con imagen de
- * fondo, icono dorado y descripción breve.
- * --------------------------------------------------------------
- */
+// ServiceCard
+
 export default function ServiceCard({ service }) {
   const Icon = ICONS[service.icon] || Sparkles
 
