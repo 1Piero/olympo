@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/* ============================================================
+   OLYMPO — Sistema de diseño premium
+   Paleta: negro profundo, dorado, blanco hueso
+   Tipografía: Marcellus / Cormorant Garamond (display) + Jost (cuerpo)
+   ============================================================ */
+@theme {
+  --font-display: "Marcellus", "Cormorant Garamond", serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-body: "Jost", sans-serif;
+
+  --color-olympo-black: #0b0b0d;
+  --color-olympo-charcoal: #141416;
+  --color-olympo-charcoal-light: #1c1c20;
+  --color-olympo-gold: #c9a227;
+  --color-olympo-gold-light: #e6c65c;
+  --color-olympo-gold-soft: #d9b65e;
+  --color-olympo-cream: #f6f1e7;
+  --color-olympo-white: #ffffff;
+  --color-olympo-gray: #8b8b8f;
+
+  --shadow-gold-glow: 0 0 40px rgba(201, 162, 39, 0.25);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-olympo-black);
+  color: var(--color-olympo-cream);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Línea dorada decorativa usada como separador entre título y contenido */
+.gold-divider {
+  width: 64px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-olympo-gold), var(--color-olympo-gold-light));
+}
+
+/* Texto con degradado dorado, usado en eslogan y títulos destacados */
+.text-gold-gradient {
+  background: linear-gradient(90deg, #e6c65c, #c9a227 50%, #e6c65c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Botón primario dorado con efecto hover elegante */
+.btn-gold {
+  background: linear-gradient(135deg, #e6c65c, #c9a227);
+  color: #0b0b0d;
+  font-family: var(--font-body);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  transition: all 0.35s ease;
+}
+.btn-gold:hover {
+  box-shadow: 0 0 30px rgba(201, 162, 39, 0.45);
+  transform: translateY(-2px);
+}
+
+/* Botón secundario con borde dorado, fondo transparente */
+.btn-outline-gold {
+  border: 1px solid var(--color-olympo-gold);
+  color: var(--color-olympo-gold-light);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  transition: all 0.35s ease;
+}
+.btn-outline-gold:hover {
+  background: var(--color-olympo-gold);
+  color: var(--color-olympo-black);
+}
+
+/* Tarjeta base con borde sutil y efecto de elevación al pasar el mouse */
+.card-luxe {
+  background: var(--color-olympo-charcoal);
+  border: 1px solid rgba(201, 162, 39, 0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+.card-luxe:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-gold-glow);
+  border-color: rgba(201, 162, 39, 0.5);
+}
+
+/* Animación de aparición suave usada al entrar secciones en viewport */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up {
+  animation: fadeInUp 0.9s ease both;
+}
+
+/* Scrollbar personalizado, discreto y dorado */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--color-olympo-black); }
+::-webkit-scrollbar-thumb { background: rgba(201, 162, 39, 0.4); border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(201, 162, 39, 0.7); }
+
+/* Estilos de inputs de formulario, consistentes en todo el sitio */
+.input-luxe {
+  background: var(--color-olympo-charcoal-light);
+  border: 1px solid rgba(201, 162, 39, 0.25);
+  color: var(--color-olympo-cream);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.input-luxe:focus {
+  outline: none;
+  border-color: var(--color-olympo-gold);
+  box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.15);
+}
+.input-luxe::placeholder {
+  color: var(--color-olympo-gray);
+}
