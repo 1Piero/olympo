@@ -1,4 +1,4 @@
-# 🏛️ Olympo — Hotel de Super Lujo
+# 🏛️ Olympo — Hotel SL
 
 > "Donde los dioses descansan"
 
