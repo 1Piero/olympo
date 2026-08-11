@@ -22,10 +22,10 @@ export default function Home() {
 
         <div className="relative z-10 mx-auto max-w-3xl px-6 text-center animate-fade-up">
           <p className="mb-5 text-xs uppercase tracking-[0.5em] text-olympo-gold-light">
-            Hotel de super lujo   
+            Hotel 
           </p>
           <h1 className="font-display text-5xl leading-tight text-olympo-cream md:text-7xl">
-            Olympo
+            O L Y M P O
           </h1>
           <p className="mt-4 font-serif text-xl italic text-gold-gradient md:text-2xl">
             "Donde los dioses descansan"
