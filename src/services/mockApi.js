@@ -57,7 +57,7 @@ export const ROOMS = [
     price: 1450,
     capacity: 2,
     image:
-      'https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?q=80&w=1400&auto=format&fit=crop',
+      'https://plalla.com/wp-content/uploads/2024/10/habitacion-con-piscina-afrodita-retreat-tulum.webp',
     description:
       'Pensada para escapadas románticas: bañera de hidromasaje con vista al mar, champán de bienvenida y decoración exclusiva.',
     amenities: ['Bañera con vista al mar', 'Champán de bienvenida', 'Decoración exclusiva'],
@@ -123,7 +123,7 @@ export const GALLERY_IMAGES = [
   'https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1400&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1400&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1400&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?q=80&w=1400&auto=format&fit=crop',
+  'https://plalla.com/wp-content/uploads/2024/10/habitacion-con-piscina-afrodita-retreat-tulum.webp',
   'https://images.unsplash.com/photo-1568084680786-a84f91d1153c?q=80&w=1400&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1400&auto=format&fit=crop',
 ]

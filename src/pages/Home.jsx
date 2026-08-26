@@ -6,15 +6,13 @@ import RoomCard from '../components/RoomCard.jsx'
 
 const ICONS = { Sparkles, UtensilsCrossed, Waves, CarFront }
 
-// Home
-
 export default function Home() {
   return (
     <div>
       {/*  HERO */}
       <section className="relative flex h-screen min-h-[600px] w-full items-center justify-center overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2000&auto=format&fit=crop"
+          src="./assets/images/fondo-hero.png"
           alt="Hotel Olympo de lujo"
           className="absolute inset-0 h-full w-full object-cover"
         />
