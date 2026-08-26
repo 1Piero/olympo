@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       {/*  HERO */}
-      <section className="relative flex h-screen min-h-[600px] w-full items-center justify-center overflow-hidden">
+      <section className="relative flex h-screen min-h-[600px] w-full items-center justify-start overflow-hidden">
         <img
           src="/assets/fondo-hero.png"
           alt="Hotel Olympo de lujo"
@@ -18,7 +18,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-olympo-black/70 via-olympo-black/60 to-olympo-black" />
 
-        <div className="relative z-10 mx-auto max-w-3xl px-6 text-center animate-fade-up">
+        <div className="relative z-10 mx-auto max-w-3xl px-6 text-left animate-fade-up md:ml-16 md:px-0 lg:ml-24">
           <p className="mb-5 text-xs uppercase tracking-[0.5em] text-olympo-gold-light">
             Hotel 
           </p>
@@ -28,12 +28,12 @@ export default function Home() {
           <p className="mt-4 font-serif text-xl italic text-gold-gradient md:text-2xl">
             "Donde los dioses descansan"
           </p>
-          <p className="mx-auto mt-6 max-w-xl text-sm leading-relaxed text-olympo-cream/80 md:text-base">
+          <p className="mt-6 max-w-xl text-sm leading-relaxed text-olympo-cream/80 md:text-base">
             Una experiencia de hospitalidad reservada para quienes buscan la perfección:
             confort absoluto, servicio impecable y un lujo que trasciende lo terrenal.
           </p>
 
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <div className="mt-10 flex flex-col items-start justify-start gap-4 sm:flex-row">
             <Link to="/reservas" className="btn-gold rounded-sm px-8 py-3.5 font-medium">
               Reserva rápida
             </Link>
@@ -49,7 +49,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/*SERVICIOS DESTACADOS*/}
       <section className="bg-olympo-black px-6 py-24">
         <div className="mx-auto max-w-7xl">
