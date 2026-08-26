@@ -12,7 +12,7 @@ export default function Home() {
       {/*  HERO */}
       <section className="relative flex h-screen min-h-[600px] w-full items-center justify-center overflow-hidden">
         <img
-          src="../assets/fondo-hero.png"
+          src="/assets/fondo-hero.png"
           alt="Hotel Olympo de lujo"
           className="absolute inset-0 h-full w-full object-cover"
         />
