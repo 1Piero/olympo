@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       {/*  HERO */}
-      <section className="relative flex h-screen min-h-[600px] w-full items-center justify-start overflow-hidden">
+      <section className="relative flex h-screen min-h-[600px] w-full items-center justify-center overflow-hidden">
         <img
           src="/assets/fondo-hero.png"
           alt="Hotel Olympo de lujo"
