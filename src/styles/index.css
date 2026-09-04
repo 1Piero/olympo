@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-/* OLYMPO — Sistema de diseño premium */
-
 @theme {
   --font-display: "Marcellus", "Cormorant Garamond", serif;
   --font-serif: "Cormorant Garamond", serif;
@@ -35,14 +33,12 @@ h1, h2, h3, h4, .font-display {
   font-family: var(--font-display);
 }
 
-/* Línea dorada decorativa usada como separador entre título y contenido */
 .gold-divider {
   width: 64px;
   height: 2px;
   background: linear-gradient(90deg, var(--color-olympo-gold), var(--color-olympo-gold-light));
 }
 
-/* Texto con degradado dorado, usado en eslogan y títulos destacados */
 .text-gold-gradient {
   background: linear-gradient(90deg, #e6c65c, #c9a227 50%, #e6c65c);
   -webkit-background-clip: text;
@@ -50,7 +46,6 @@ h1, h2, h3, h4, .font-display {
   color: transparent;
 }
 
-/* Botón primario dorado con efecto hover elegante */
 .btn-gold {
   background: linear-gradient(135deg, #e6c65c, #c9a227);
   color: #0b0b0d;
@@ -65,7 +60,6 @@ h1, h2, h3, h4, .font-display {
   transform: translateY(-2px);
 }
 
-/* Botón secundario con borde dorado, fondo transparente */
 .btn-outline-gold {
   border: 1px solid var(--color-olympo-gold);
   color: var(--color-olympo-gold-light);
@@ -79,7 +73,6 @@ h1, h2, h3, h4, .font-display {
   color: var(--color-olympo-black);
 }
 
-/* Tarjeta base con borde sutil y efecto de elevación al pasar el mouse */
 .card-luxe {
   background: var(--color-olympo-charcoal);
   border: 1px solid rgba(201, 162, 39, 0.15);
@@ -91,7 +84,6 @@ h1, h2, h3, h4, .font-display {
   border-color: rgba(201, 162, 39, 0.5);
 }
 
-/* Animación de aparición suave usada al entrar secciones en viewport */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(24px); }
   to { opacity: 1; transform: translateY(0); }
@@ -100,13 +92,11 @@ h1, h2, h3, h4, .font-display {
   animation: fadeInUp 0.9s ease both;
 }
 
-/* Scrollbar personalizado, discreto y dorado */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--color-olympo-black); }
 ::-webkit-scrollbar-thumb { background: rgba(201, 162, 39, 0.4); border-radius: 8px; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(201, 162, 39, 0.7); }
 
-/* Estilos de inputs de formulario, consistentes en todo el sitio */
 .input-luxe {
   background: var(--color-olympo-charcoal-light);
   border: 1px solid rgba(201, 162, 39, 0.25);
